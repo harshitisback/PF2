@@ -1,0 +1,225 @@
+/* html elements  */
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 70px;
+    line-height: 2;
+
+
+}
+
+.myname {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.guten-tag {
+    color: black;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+}
+
+hr{
+    border-top: dotted;
+    width: 5rem;
+    border-width: 10px;
+    border-color: beige;
+}
+
+/* para graphs font change */
+.android {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.fullstack {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+/* div boxes  */
+/* upper box */
+
+.upper {
+
+
+    background-color: rgb(135, 45, 220);
+    padding-top: 20px;
+}
+
+/* images on first box */
+.bottom_cloud {
+    position: absolute;
+    left: 320px;
+}
+
+.upper_cloud {
+    position: absolute;
+    right: 400px;
+    top: 75px;
+}
+
+
+/* .define{
+    
+    font-size: 1.25rem;
+} */
+
+
+/* middle box */
+
+.middle-container {}
+
+
+
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 75px auto 75px auto;
+    text-align: left;
+    line-height: 2;
+
+
+}
+
+.android_studio {
+    margin-right: 30px;
+    float: left;
+
+}
+
+.java {
+    float: right;
+    margin-left: 30px;
+}
+
+.firebase {
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+.profile {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+/* bottom box */
+
+.bottom-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color:#66BFBF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+
+    /* inline block: they are blocking another element to comming in the same line way so by inline-block we can
+    came up with at the single line elements and by inline block we can change the width also  */
+
+
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.copyright{
+    margin-bottom: 0px;
+}
+
+.footer-link{
+    margin: 30px;
+    color: #11999E;
+}
+
+
+.topnav {
+    text-align: center;
+    background-color: rgb(135, 45, 220);
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    /* float: left; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
